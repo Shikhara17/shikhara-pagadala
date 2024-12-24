@@ -50,7 +50,7 @@ const Hero = () => {
             <p className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`} style={{color:'black', fontSize:'24px'}}>
             <Typewriter
               options={{
-                strings: ["CyberSecurity", "Ai & ML", "NLP"],
+                strings: ["FullStack Development", "AI & ML", "Data Engineering","Software Development", "Cloud Computing"],
                 autoStart: true,
                 loop: true,
                 loopCount: Infinity,

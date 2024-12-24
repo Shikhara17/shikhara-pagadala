@@ -16,9 +16,9 @@ const Hero = () => {
       
       </div>
       <section
-        className="relative flex sm:flex-row flex-col w-full h-screen mx-auto 
-        sm:bg-hero bg-hero-mobile"
-        >    
+        className="relative flex sm:flex-row flex-col w-full mx-auto 
+        sm:bg-hero bg-hero-mobile "
+        style={{height:'850px'}}>    
         {/* <img src={doodle} alt="world map" class="w-full h-full block " style={{width:'100%'}}/> */}
         <div
           className={`absolute inset-0 sm:top-[100px] top-[150px] 
@@ -26,29 +26,32 @@ const Hero = () => {
           max-w-7xl mx-auto flex flex-row items-start
           justify-between gap-3`}>
             
-          <div className="flex flex-col justify-center items-center mt-5 ml-3">
+          {/* <div className="flex flex-col justify-center items-center mt-5 ml-3">
             <div className="w-5 h-5 rounded-full bg-[#0a0a0a] sm:hidden" />
             <div className="w-1 sm:h-80 h-40 bw-gradient sm:hidden" />
           </div>
-          
-          <div>
+           */}
+          <div >
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
               Hi, I'm{' '}
               Shikhara Pagadala
               <span
                 className="sm:text-battleGray sm:text-[90px] 
-                text-eerieBlack text-[50px] font-mova
+                text-eerieBlack text-[20px] font-mova
                 font-extrabold uppercase">
                 {/* Shikhara Pagadala */}
               </span>
             </h1>
             
-            <p className={`mt-4 text-taupe text-[18px] leading-[30px]` }>
-            As an engineer and innovator, I transform complex challenges into practical solutions, inspiring progress with every project.
-            Explore my projects and learn more about my journey!
+            <p className={`mt-4 text-taupe text-[18px] leading-[30px]` } >
+            At heart, I'm a storyteller, crafting narratives through code. My career has taken me from a Software Developer Engineer to earning a Master’s in Computer Science. I thrive on transforming complex ideas into simple, effective solutions that improve lives.
+             I specialize in creating sophisticated frontends and robust backend systems, leveraging my skills to develop cutting-edge data engineering and AI-driven applications.
+             {/* Whether it's enhancing healthcare technology or advancing privacy in digital solutions, I approach each project with a commitment to excellence and innovation. */}
+            {/* As an engineer and innovator, I transform complex challenges into practical solutions, inspiring progress with every project. */}
+            <br/>Explore my projects and learn more about my journey!
             <br className="sm:block hidden" />
-            <div style={{
+            <div  style={{
             display:'flex',
             alignItems: 'center',
             gap: '20px',
@@ -74,18 +77,18 @@ const Hero = () => {
             
            
           </div>
-          
+{/*           
           <div
             className="w-screen flex flex-col items-start 
             justify-center sm:-ml-[3rem] xxs:mt-4"></div>
 
-          <div> </div>
+          <div> </div> */}
         </div>
 
         <div
           className="absolute hidden lg:flex xl:bottom-10 bottom-32  w-full 
           flex justify-center items-center">
-          <a href="#about">
+          <a href="#skills">
             <div
               className="w-[35px] h-[64px] rounded-3xl border-4 
             border-french border-dim flex
@@ -108,7 +111,7 @@ const Hero = () => {
 
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div style={{width:'100%', alignContent:'right'}}>
-        <img src={doodle} alt="world map" class="w-full h-full block " style={{width:'100%'}}/>
+        {/* <img src={doodle} alt="world map" class="w-full h-full block " style={{width:'100%'}}/> */}
           {/* <img
             className="absolute bottom-0 ml-[50vw] 
             lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]

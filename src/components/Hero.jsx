@@ -6,6 +6,7 @@ import black from '../assets/backgrounds/blackbg.png';
 import doodle from '../assets/backgrounds/doodle.png';
 import doodle1 from '../assets/backgrounds/doodle1.png';
 import binary from '../assets/backgrounds/binary.png';
+import Typewriter from "typewriter-effect";
 const Hero = () => {
   return (
     <>
@@ -45,8 +46,21 @@ const Hero = () => {
             </h1>
             
             <p className={`mt-4 text-taupe text-[18px] leading-[30px]` } >
+            I do
+            <p className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`} style={{color:'black', fontSize:'24px'}}>
+            <Typewriter
+              options={{
+                strings: ["CyberSecurity", "Ai & ML", "NLP"],
+                autoStart: true,
+                loop: true,
+                loopCount: Infinity,
+                deleteSpeed: "natural",
+                pauseFor: 1000,
+              }}
+            />
+            </p>
             At heart, I'm a storyteller, crafting narratives through code. My career has taken me from a Software Developer Engineer to earning a Master’s in Computer Science. I thrive on transforming complex ideas into simple, effective solutions that improve lives.
-             I specialize in creating sophisticated frontends and robust backend systems, leveraging my skills to develop cutting-edge data engineering and AI-driven applications.
+             {/* I specialize in creating sophisticated frontends and robust backend systems, leveraging my skills to develop cutting-edge data engineering and AI-driven applications. */}
              {/* Whether it's enhancing healthcare technology or advancing privacy in digital solutions, I approach each project with a commitment to excellence and innovation. */}
             {/* As an engineer and innovator, I transform complex challenges into practical solutions, inspiring progress with every project. */}
             <br/>Explore my projects and learn more about my journey!

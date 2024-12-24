@@ -1,13 +1,16 @@
 {
   "name": "shikhara",
-  "private": true,
+  "homepage": "https://Shikhara17.github.io.shikhara-pagadala/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
+
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -17,6 +20,7 @@
     "@react-three/drei": "^9.66.1",
     "@react-three/fiber": "^8.13.0",
     "framer-motion": "^10.12.5",
+    "gh-pages": "^6.2.0",
     "maath": "^0.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

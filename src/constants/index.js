@@ -18,6 +18,7 @@ import lyri from '../assets/backgrounds/lyri.png';
 import cognizant from '../assets/icons/cognizant.png';
 import cwru from '../assets/icons/cwru.png';
 import ionic from '../assets/icons/ionic.png';
+import osmania from '../assets/backgrounds/osmania.jpeg';
 import {
   frontend,
   ux,
@@ -28,13 +29,17 @@ import {
 } from '../assets';
 
 export const navLinks = [
-  {
-    id: 'about',
-    title: 'About',
-  },
+  // {
+  //   id: 'about',
+  //   title: 'About',
+  // },
   {
     id: 'skills',
     title: 'Skills',
+  },
+  {
+    id: 'education',
+    title: 'Education',
   },
   {
     id: 'projects',
@@ -84,7 +89,7 @@ const projects = [
     name: 'Halo Harbor',
     description: 'A personal data management project which enhances data privacy and user control by integrating federated learning and secure computation technologies, offering robust protection and efficiency.',
     image: dataprivacy, 
-    repo: 'https://github.com/Shikhara17',
+    repo: 'https://github.com/Shikhara17/HaloHarbor',
     demo: 'https://haloharbor.io',
     techStack: 'React, CSS, Java Script, HTML, Docker, Docker Kubertees, Tailwind.css, AWS Nitro Enclave, AWS, ACA-PY, python, MongoDB, OAuth, JWT, GoogleAPI, Postman, FIGMA, Machine Learning, Federated Learning, Neural networks',
     category: ['Full Stack', 'AI/ML', 'Frontend','DevOps']
@@ -94,7 +99,7 @@ const projects = [
     name: 'SYCLConv',
     description: "This project implements depthwise separable convolution using SYCL and integrates it into the AI3 framework, aiming to enhance computational efficiency by replacing PyTorch's standard conv2d implementation. Utilizing the principles from the MobileNets paper, it focuses on optimizing performance for devices with limited resources and improving inference time.",
     image: conv,
-    repo: 'https://github.com/Shikhara17',
+    repo: 'https://github.com/Shikhara17/SYCLConv',
     demo: 'https://drive.google.com/file/d/1EgthIjx-qHRmpkcgwEzv4zaMt_BPWXgf/view?usp=sharing',
     techStack: "SYCL, AI3 Framework, PyTorch, Tensors, CNN, Keras, Tensorflow, MobileNets Architecture, C++, NVIDIA GPU",
     category: ['Machine Learning', 'AI/ML', ]
@@ -104,8 +109,8 @@ const projects = [
     name: 'ClassTrack',
     description: 'ClassTrack is an integrated system designed to streamline the process of course enrollment and attendance tracking. It enables users to easily sign up for courses and manage attendance, enhancing administrative efficiency and user accessibility.',
     image: res,
-    repo: 'https://github.com/Shikhara17',
-    demo: '#',
+    repo: 'https://github.com/Shikhara17/ClassTrack',
+    demo: 'https://github.com/Shikhara17/ClassTrack',
     techStack: 'Core Java, Java Script, HTML, CSS, Bootstrap, JSP, Servlets, Xml, Spring MVC, Spring Boot, Spring Security, MongoDB, MySQL, Microservices, Java',
     category: ['Full Stack','Frontend']
   },
@@ -114,8 +119,8 @@ const projects = [
     name: 'Smart Health Card',
     description: 'Smart Health Card is a web application designed to digitize health records, allowing secure and easy access through QR code scanning. It employs Firebase for backend operations and authentication, ensuring each account is linked with a unique QR code for streamlined data retrieval.',
     image: heart,
-    repo: 'https://github.com/Shikhara17',
-    demo: '#',
+    repo: 'https://github.com/Shikhara17/SmartHealthCard',
+    demo: 'https://github.com/Shikhara17/SmartHealthCard',
     techStack: 'HTML, CSS, JavaScript, Bootstrap, Firebase, NodeJS, Document Object Model',
     category: ['Full Stack','Frontend','Cloud']
   },
@@ -124,8 +129,8 @@ const projects = [
     name: 'WindForce ML',
     description: 'This project uses machine learning for predictive regression techniques, specifically in modeling wind turbine power curves. It addresses the challenges of intermittent renewable energy by enhancing the predictability and efficiency of wind power generation.',
     image: windforce,
-    repo: 'https://github.com/Shikhara17',
-    demo: '#',
+    repo: 'https://github.com/Shikhara17/WindforceML',
+    demo: 'https://github.com/Shikhara17/WindforceML',
     techStack: 'Python, Machine Learning, Numpy, Seaborn, Matplotlib, Sklearn and Pandas',
     category: ['Machine Learning', 'AI/ML', ]
   },
@@ -134,8 +139,8 @@ const projects = [
     name: 'Location Obfuscation',
     description: 'The project explores advanced techniques for anonymizing location data to enhance user privacy in location-based services. Utilized methods such as K-Anonymity and obfuscation, to develop privacy-preserving solutions that safeguard users against unauthorized access to their geographical information. This not only protects personal data but also addresses the increasing concerns surrounding location privacy in digital applications.',
     image: loc,
-    repo: 'https://github.com/Shikhara17',
-    demo: '#',
+    repo: 'https://github.com/Shikhara17/LocationObfuscation',
+    demo: 'https://github.com/Shikhara17/LocationObfuscation',
     techStack: 'Python, Geospatial Analysis Tools, Data Anonymization Algorithms',
     category: ['Data Privacy', 'Backend']
   },
@@ -144,8 +149,8 @@ const projects = [
     name: 'Compact Wahan',
     description: 'Compact Wahan is an IoT-based prototype for a self-driving vehicle equipped with advanced smart features. It includes self-parking capabilities, obstacle detection, and accident detection, all enabled through a network of integrated sensors. This project aims to enhance vehicular safety and autonomy, pushing the boundaries of traditional driving systems.',
     image: iot,
-    repo: 'https://github.com/Shikhara17',
-    demo: 'https://demo-link.com',
+    repo: 'https://github.com/Shikhara17/CompactWahan',
+    demo: 'https://github.com/Shikhara17/CompactWahan',
     techStack: 'IoT Devices, Sensors (LIDAR), ultrasonic, infrared, Python, Raspberry Pi, Arduino, Machine Learning Libraries',
     category: 'IOT'
   },
@@ -155,8 +160,8 @@ const projects = [
     name: 'Lyrisense',
     description: "LyriSense uses Natural Language Processing (NLP) and Machine Learning (ML) to decode emotional and thematic patterns in song lyrics. By leveraging state-of-the-art techniques like BERT tokenization and TensorFlow's distributed training strategies, it classifies lyrics into specific themes such as Sadness or Romance. This project offers significant insights for applications ranging from music streaming services to cultural studies, enabling objective, data-driven analysis of lyrical content.",
     image: lyri,
-    repo: 'https://github.com/Shikhara17',
-    demo: 'https://demo-link.com',
+    repo: 'https://github.com/Shikhara17/LyriSense',
+    demo: 'https://github.com/Shikhara17/LyriSense',
     techStack: 'Machine Learning, NLP & ML Techniques, Data Handling, Parallel Computing, BERT Tokenization, Tensorflow, keras, matplotlib, nvidia-smi, pandas, numpy, Multi Worker mirrored Strategy',
     category: ['Artificial Intelligence','Backend']
   },
@@ -165,8 +170,8 @@ const projects = [
     name: 'DataSpark',
     description: 'A data engineering project using Python and Spark to process large datasets.',
     image: etl,
-    repo: 'https://github.com/Shikhara17',
-    demo: 'https://demo-link.com',
+    repo: 'https://github.com/Shikhara17/DataSpark',
+    demo: 'https://github.com/Shikhara17/DataSpark',
     techStack: 'PySpark, AWS Elastic MapReduce (EMR), AWS S3, HDFS, PySpark, HTML, CSS, JavaScript, Bootstrap, jQuery, JSON, XML, SWAGGER, GIT, Jira, Control M, Docker, Google Kubernetes Engine, Agile Development, CI/CD',
     category: 'React'
   },
@@ -175,8 +180,8 @@ const projects = [
     name: 'Resource Rally',
     description: 'Resource Rally is an advanced resource management system that automates the collection and deposition of resources in a game environment using multiple agents. It utilizes the A* algorithm for efficient pathfinding and task execution within the SEPIA framework.',
     image: cal,
-    repo: 'https://github.com/Shikhara17',
-    demo: 'https://demo-link.com',
+    repo: 'https://github.com/Shikhara17/ResourceRally',
+    demo: 'https://github.com/Shikhara17/ResourceRally',
     techStack: 'java, Sepia, A*, Strips Action, HashMaps, Stacks',
     category: ['Artificial Intelligence','Backend']
   },
@@ -185,8 +190,8 @@ const projects = [
   //   name: 'Urban Flow',
   //   description: 'This project is designed to manage traffic at a four-way intersection, ensuring efficient vehicle and pedestrian flow while maintaining safety. It features synchronized traffic signals for both vehicles and pedestrians, with distinct phases for each direction to avoid conflicts and potential accidents.',
   //   image: traffic,
-  //   repo: 'https://github.com/Shikhara17',
-  //   demo: 'https://demo-link.com',
+  //   repo: 'https://github.com/Shikhara17/UrbanFlow',
+  //   demo: 'https://github.com/Shikhara17/UrbanFlow',
   //   techStack: 'Python, Pygame, Threading',
   //   category: 'Backend'
   // }
@@ -271,6 +276,23 @@ const technologies = {
     { name: 'Postman', icon: 'fas fa-mail-bulk' }
   ]
 };
+
+const educations = [
+  {
+    title: 'Masters in Computer Science',
+    company_name: 'Case Western Reserve University',
+    icon: cwru,
+    iconBg: '#003071',
+  },
+  {
+    title: 'Bachelor of Engieering in Electrical and Electronic Engineering',
+    company_name: 'Osmania University',
+    icon: osmania,
+    iconBg: '#fff',
+  },
+  
+];
+
 const experiences = [
   {
     title: 'Software Developer',
@@ -287,7 +309,7 @@ const experiences = [
   },
   {
     title: 'Graduate Research Assistant',
-    company_name: 'Case Western Researve University',
+    company_name: 'Case Western Reserve University',
     icon: cwru,
     iconBg: '#003071',
     date: 'Jan 2024 - Present',
@@ -355,4 +377,4 @@ const experiences = [
   // },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects ,educations};

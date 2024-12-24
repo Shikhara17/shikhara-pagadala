@@ -10,6 +10,7 @@ import {
 } from './components'; 
 import Certifications from './components/Certifications';
 import ResponsiveCards from './components/Certifications';
+import Education from './components/Education';
 
 const App = () => {
   return (
@@ -25,15 +26,21 @@ const App = () => {
         <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
           <Tech />
         </div>
+        {/* <div className="bg-about bg-cover bg-center bg-no-repeat">
+          <About />
+        </div> */}
+
+        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
+          <Education />
+        </div>
+        
 
         <div className="bg-about bg-cover bg-center bg-no-repeat">
         <Projects />
         </div>
         
        {/* <Certifications/> */}
-        <div className="bg-about bg-cover bg-center bg-no-repeat">
-          <About />
-        </div>
+
        <Certifications/>
 
         <div

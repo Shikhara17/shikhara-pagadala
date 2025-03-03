@@ -59,7 +59,7 @@ const Hero = () => {
               }}
             />
             </p>
-            At heart, I'm a storyteller, crafting narratives through code. My career has taken me from a Software Developer Engineer to earning a Master’s in Computer Science. I thrive on transforming complex ideas into simple, effective solutions that improve lives.
+            At heart, I'm a storyteller, crafting narratives through code. My career has taken me from a Software Developer Engineer to earning a Master’s in Computer Science. I thrive on transforming complex ideas into simple, effective solutions that improve livess.
              {/* I specialize in creating sophisticated frontends and robust backend systems, leveraging my skills to develop cutting-edge data engineering and AI-driven applications. */}
              {/* Whether it's enhancing healthcare technology or advancing privacy in digital solutions, I approach each project with a commitment to excellence and innovation. */}
             {/* As an engineer and innovator, I transform complex challenges into practical solutions, inspiring progress with every project. */}

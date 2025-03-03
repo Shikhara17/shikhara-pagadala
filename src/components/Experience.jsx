@@ -214,7 +214,7 @@ const Experience = () => {
       transition duration-200 ease-in-out"
       onClick={() =>
         window.open(
-          'https://drive.google.com/file/d/1Rb99c4_PVN81W_XNPqVNL8io9y2qNUMn/view?usp=share_link',
+          'https://drive.google.com/file/d/1MIwseFNpIQstgUxkvXtk2Wttlz0eDAKR/view?usp=share_link',
           '_blank'
         )
       }

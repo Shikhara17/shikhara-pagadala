@@ -50,7 +50,7 @@ const About = () => {
         developing sophisticated frontend systems and robust backend
         architectures to pioneering data engineering and AI-driven solutions,
         each project showcases my dedication to pushing technological boundaries
-        and delivering excellence.
+        and delivering excellencee.
       </motion.p>
       {/* 
       <div className="mt-20 flex flex-wrap gap-10" style={{ scrollbarWidth: "none" }}> */}

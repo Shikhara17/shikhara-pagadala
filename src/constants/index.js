@@ -19,6 +19,7 @@ import cognizant from '../assets/icons/cognizant.png';
 import cwru from '../assets/icons/cwru.png';
 import ionic from '../assets/icons/ionic.png';
 import osmania from '../assets/backgrounds/osmania.jpeg';
+import chase from '../assets/icons/chase-bank.png';
 import {
   frontend,
   ux,
@@ -293,6 +294,7 @@ const educations = [
   
 ];
 
+
 const experiences = [
   {
     title: 'Software Developer',
@@ -301,12 +303,39 @@ const experiences = [
     iconBg: '#3c9eb0',
     date: 'Jan 2024 - Present',
     age:'1+ years',
+    techUsed:`<ul>
+    <li><strong>Front-End:</strong> React, Redux, JavaScript/TypeScript, HTML5, CSS3 (Tailwind CSS, LESS), jQuery</li>
+    <li><strong>Back-End:</strong> C# (.NET Core/MVC), VB.NET, ASP.NET Web API (REST/OData), Entity Framework, Node.js (for certain services)</li>
+    <li><strong>Data & Analytics:</strong> SQL Server (T-SQL), PostgreSQL, Apache Spark, Apache Kafka, SSRS, Report Builder</li>
+    <li><strong>Cloud & DevOps:</strong> AWS S3 (cloud storage), Azure DevOps (CI/CD pipelines), GitHub, TFS, Docker, Kubernetes</li>
+    <li><strong>Security:</strong> OAuth 2.0, JWT, Role-Based Access Control, Healthcare data compliance (HIPAA)</li>
+</ul>`,
+    contributions: `<ul>
+    <li>Enhanced overall system performance by 30% through back-end optimization and efficient use of .NET and database technologies.</li>
+    <li>Decreased API request latency by 20% by implementing optimized web services (REST/OData) and improving client-server data exchange patterns.</li>
+    <li>Reduced database query execution times by 40% through query optimization and indexing, significantly speeding up data retrieval for large medical imaging datasets.</li>
+    <li>Cut front-end load times by 30% through responsive design and code-splitting techniques, providing faster access to the application for end-users.</li>
+    
+    <li>Ensured 99.9% system uptime and reliability for the application’s services by implementing robust cloud infrastructure and fail-safes.</li>
+    <li>Strengthened security by reducing unauthorized access attempts by 25% through the introduction of strict authentication and authorization measures.</li>
+</ul>`,
     description: `
-    <p style=color:#6cd56c>Technologies/Tools: HTML, CSS, JavaScript, React.js</p>
-    <p>Spearheaded digital transformation initiatives, playing a key role in frontend development to enable client access to patient data and reports, enhancing healthcare service efficiency by 35% and improving care quality.</p>`
-   
+            <ul>
+                <li>Developed and maintained a SaaS-based healthcare web application using .NET (C# and VB.NET with ASP.NET and Entity Framework) and SQL Server.</li>
+                <li>Built and consumed RESTful APIs (including OData services) to enable seamless communication between front-end clients and server-side components.</li>
+                <li>Created responsive and dynamic user interfaces using React, TypeScript, HTML5/CSS3 (with LESS), and JavaScript (including jQuery) to enhance user experience for clinicians and patients.</li>
+                <li>Integrated real-time updates via WebSockets on the front end to live-stream medical imaging data (CT scans), allowing instant data refreshes for radiologists.</li>
+                <li>Optimized database operations and data storage by designing efficient T-SQL queries, stored procedures, and indexing strategies on SQL Server and PostgreSQL to improve query execution times.</li>
+                
+                <li>Implemented robust security and privacy measures to comply with healthcare regulations (HIPAA), including OAuth 2.0 authorization, JWT-based authentication, and role-based access control (RBAC).</li>
+                <li>Managed source control and automated deployments using Azure DevOps and GitHub/TFS, setting up CI/CD pipelines to streamline testing and deployment.</li>
+                <li>Developed advanced reporting features using SQL Server Reporting Services (SSRS) and Report Builder to provide real-time financial and operational analytics.</li>
+            </ul>`
   
   },
+  // <li>c:Improved anomaly detection in medical images by 30% after integrating machine learning pipelines (Spark and Kafka), leading to quicker and more accurate identification of critical cases.</li>
+  // <li>d:Integrated secure cloud storage via AWS S3 for storing large imaging files, ensuring reliable retrieval and backup of medical data.</li>
+  //  li>d: Incorporated AI-driven data processing in the workflow by leveraging Apache Spark and Apache Kafka pipelines to process imaging data and detect anomalies in scans.</li>
   {
     title: 'Graduate Research Assistant',
     company_name: 'Case Western Reserve University',
@@ -314,67 +343,99 @@ const experiences = [
     iconBg: '#003071',
     date: 'Jan 2024 - Present',
     age:'1+ years',
-   
+    techUsed:`<ul>
+    <li><strong>Programming & ML:</strong> Python (for data analysis and scripting), TensorFlow (for machine learning), scikit-learn, OpenAI GPT, Hugging Face Transformers</li>
+    <li><strong>Data Analysis:</strong> Statistical methods, numerical algorithms, predictive analytics tools, and deep learning models for text and image generation</li>
+    <li><strong>Generative AI:</strong> OpenAI API, Stable Diffusion, LangChain, LLM-based automation</li>
+    <li><strong>Reporting & Visualization:</strong> Automated reporting using pandas, matplotlib, Excel, Power BI, and AI-generated insights using NLP</li>
+</ul>
+`,
+    contributions: `<ul>
+    <li>Increased predictive model accuracy by 15% by refining ML algorithms and incorporating Generative AI models for data augmentation.</li>
+    <li>Reduced data analysis time by 50% by automating report generation using NLP-powered AI summarization tools.</li>
+    <li>Improved data processing efficiency by 20% using optimized numerical methods, OOP, and AI-assisted anomaly detection.</li>
+    <li>Boosted decision-making accuracy by 10% for program directors by implementing AI-driven forecasting models.</li>
+    <li>Mentored 10 interns, training them in traditional ML techniques and cutting-edge Generative AI technologies.</li>
+</ul>`,
     description:`
-    <p style=color:#6cd56c>Technologies/Tools: HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, WordPress, Powerpoint, Jira, Python, Data Analytics</p>
-    In my role as the Graduate Research Assitant, I directed a dynamic team of 10 summer interns in a series of pivotal education and research projects within healthcare administration and technology. Our goal was to advance academic knowledge and practical applications in this vital sector, focusing on increasing operational efficiencies and expanding educational outreach.
-        <p><strong>Contributions:</strong></p>
     <ul>
-        <li><strong>Leadership and Team Management:</strong> Directed a team of 10 summer interns, enhancing their skills in healthcare technology and administration through targeted project assignments and mentorship.</li>
-        <li><strong>Frontend Development:</strong> Spearheaded the development of the web portal using React.js, ensuring a responsive and interactive user experience tailored to the needs of healthcare professionals.</li>
-        <li><strong>User-Centered Design:</strong> Collaborated with healthcare professionals to gather requirements and feedback, which guided the design and functionality of the user interface.</li>
-        <li><strong>System Integration:</strong> Integrated the frontend solution with existing hospital information systems for seamless data flow and improved data accuracy.</li>
-        <li><strong>Security and Compliance:</strong> Implemented security measures, including data encryption and compliance checks, to protect sensitive patient information.</li>
-        <li><strong>Performance Optimization:</strong> Optimized the application’s performance to handle high volumes of data, ensuring quick and reliable access to information.</li>
-        <li><strong>Impact:</strong> The deployment of the Healthcare Access Portal led to a 35% improvement in service efficiency and significantly enhanced the quality of patient care, providing a modern tool for data management and decision-making.</li>
-    </ul>
-    ` },
+    <li>Increased predictive model accuracy by 15% by refining ML algorithms and incorporating Generative AI models for data augmentation.</li>
+    <li>Reduced data analysis time by 50% by automating report generation using NLP-powered AI summarization tools.</li>
+    <li>Improved data processing efficiency by 20% using optimized numerical methods, OOP, and AI-assisted anomaly detection.</li>
+    <li>Boosted decision-making accuracy by 10% for program directors by implementing AI-driven forecasting models.</li>
+    <li>Mentored 10 interns, training them in traditional ML techniques and cutting-edge Generative AI technologies.</li>
+</ul>
+    ` 
+  },
   {
     title: 'Software Developer Engineer',
-    company_name: 'Cognizant',
-    icon: cognizant,
+    company_name: 'JP Morgan Chase & Co - Cognizant',
+    icon: chase,
     iconBg: '#fff',
     date: 'Jan 2021 - Dec 2023',
     age: '3 years',
+  techUsed:`<ul>
+  <li><strong>Programming & Frameworks:</strong> Java (J2EE, Spring Boot), Python (PySpark), JavaScript/TypeScript (Node.js, Express.js, GraphQL)</li>
+  <li><strong>Data & Storage:</strong> Hadoop (Hive, HDFS), Relational databases (AWS RDS, PostgreSQL), NoSQL databases (DynamoDB)</li>
+  <li><strong>Caching Tools:</strong> Redis, Elasticsearch</li>
+  <li><strong>Cloud & DevOps:</strong> AWS services (EC2, S3, EMR), Containerization (Docker, Kubernetes)</li>
+  <li><strong>CI/CD Pipelines:</strong> Jenkins, Bitbucket, GitHub Actions</li>
+  <li><strong>Version Control:</strong> BitBucket, Git</li>
+</ul>`,
+  contributions: `<ul>
+  <li>Reduced operational costs by 20% and saved 10+ hours per week by automating data pipeline workflows and reporting processes.</li>
+  <li>Implemented a big data analytics platform that contributed to a 25% increase in revenue over two years by enabling deeper insights into customer data.</li>
+  <li>Saved approximately $40,000 annually through optimized ETL pipelines that streamlined data ingestion for multiple business units.</li>
+  <li>Accelerated data processing speeds by 65% by integrating Hadoop into existing ETL operations, significantly improving batch processing times.</li>
+  <li>Achieved 99.98% system uptime by leveraging a containerized microservices architecture and robust cloud infrastructure, ensuring high availability of critical applications.</li>
+  <li>Decreased deployment failures by 20% and accelerated release cycles via improved CI/CD practices, resulting in more reliable and frequent software releases.</li>
+</ul>`,
      description:`
-  <p>Client: JPMorgan Chase<p>
-  <p style=color:#6cd56c>Technologies/Tools: API Swagger, IntelliJ, Control-M, Bit Bucket, Git, Spark, Hadoop, Hive, Unix</p>
-  
-  <strong> Project Overview:</strong> 
-  
-  This project at JPMorgan Chase was an ambitious initiative aimed at overhauling the existing ETL (Extraction, Transformation, and Loading) processes to enhance data management and reporting capabilities in multiple Banking sector. This project focused on redesigning the ETL pipelines to improve data ingestion, quality, and accessibility, leveraging advanced Big Data technologies.
- 
-  <p><strong> Contributions:</strong></p>
-
-      <ul style="list-style-type: disc; padding-left: 20px;">
-            <li><strong>Design and Documentation: </strong>Participated in the analysis of business, functional, and system requirements to ensure thorough understanding and documentation.</li>
-            <li><strong>ETL Development:</strong> Engineered robust ETL pipelines tailored for enhanced performance and reliability. Implemented sophisticated data loading techniques and contributed to the development of pipeline registration and data verification processes using Swagger.</li>
-            <li><strong>Automation and Scheduling:</strong> Utilized Control-M for efficient scheduling of batch jobs, ensuring timely data processing. Employed Putty for server interactions and to execute Unix shell script commands for operational tasks.</li>
-            <li><strong>Quality Assurance:</strong> Conducted rigorous unit testing and bug fixing to maintain high standards of quality. Managed CDC (Change Data Capture) development for Type1 and Type2, crucial for maintaining the data warehouse's historical accuracy.</li>
-            <li><strong>Reporting and Compliance:</strong> Assisted in the preparation of detailed status reports and documentation, crucial for project tracking and compliance with JPMC's stringent regulatory requirements.</li>
-            <li>Architected and deployed multiple Spring Boot web applications, integrating advanced server-side programming and form validations that improved data processing efficiency by 25%. Led the design and implementation of robust database architectures for three full-stack web applications, enhancing data security and operational performance by 30%.</li>
-            <li><strong>Impact:</strong> The project significantly enhanced the data processing capabilities at JPMorgan Chase, enabling faster and more accurate data analysis and reporting. It improved operational efficiency and data quality, directly impacting decision-making processes within the banking sector.</li>
-        </ul>
+      <ul>
+      <li>Developed scalable cloud-native applications and microservices using Java, Python, and Node.js to support enterprise banking operations.</li>
+      <li>Built high-performance APIs (REST and GraphQL) for cross-platform integration across 10+ internal departments.</li>
+      <li>Designed and optimized large-scale data pipelines and ETL workflows to handle big data processing needs.</li>
+      <li>Implemented Hadoop-based solutions (Hive, HDFS, PySpark) for batch and real-time data analytics, integrating them with traditional ETL processes.</li>
+      <li>Deployed and managed containerized services on cloud platforms (AWS EC2, S3, EMR) using Docker and Kubernetes to ensure scalability and resilience.</li>
+      <li>Improved continuous integration and delivery (CI/CD) pipelines using Jenkins, Bitbucket, and GitHub Actions to accelerate release cycles.</li>
+      <li>Optimized backend performance through caching and database tuning using Redis and Elasticsearch to improve data retrieval latency.</li>
+      <li>Collaborated on system design and architecture, analyzing software requirements and creating detailed design documents to improve maintainability.</li>
+      <li>Ensured coding best practices and documentation standards were followed across the team.</li>
+      <li>Mentored a team of 4 junior developers, providing guidance in coding standards, system design, and debugging techniques to improve productivity and code quality.</li>
+  </ul>
 `
-  
-  
-  },
-  // {
-  //   title: 'Software Developer',
-  //   company_name: 'Cognizant',
-  //   icon: cognizant,
-  //   iconBg: '#fff',
-  //   date: 'Jan 2021 - Jul 2021',
-  //   description:`
-  //   <p style=color:#6cd56c>Technology/Tools: Spring MVC, Spring Security, HTML, CSS, JavaScript, Firebase, QR Code Technology, <p>
-  //   <p>During my tenure as a software developer, I actively contributed to two significant projects that aimed to enhance healthcare administration and session management systems. These projects allowed me to apply and expand my technical skills in a practical environment.</p>
-  //   <p><strong> Contributions:</strong></p>
-  //       <li>Architected and deployed multiple Spring Boot web applications, integrating advanced server-side programming and form validations that improved data processing efficiency by 25%. Led the design and implementation of robust database architectures for three full-stack web applications, enhancing data security and operational performance by 30%.</li>
-  //       <li>Utilized firebase for backend operations and authentication, and featured QR code integration for user data access.</li>
-  //       <li>Worked on database design and handled user data.</li>    
-  //       </ul>
-  //   `
-  // },
+},
+  {
+    title: 'Software Developer',
+    company_name: 'Cognizant',
+    icon: cognizant,
+    iconBg: '#fff',
+    date: 'Jan 2021 - Jul 2021',
+    techUsed:` <ul>
+    <li><strong>Languages & Frameworks:</strong> Java (J2EE, Spring), Python (Flask/PySpark), C# (ASP.NET MVC), Hadoop (HDFS, MapReduce)</li>
+    <li><strong>Databases & Reporting:</strong> SQL Server, PostgreSQL, Hibernate (ORM), SQLAlchemy (Python ORM), SSRS, Crystal Reports</li>
+    <li><strong>Tools & Methodologies:</strong> Azure DevOps, TFS (source control), Agile/Scrum, Jenkins (CI builds), OAuth 2.0 & JWT</li>
+</ul>`,
+contributions: `<ul>
+    <li>Improved overall system efficiency by 25% through backend optimization and performance tuning.</li>
+    <li>Increased data analysis speed by 35% by developing advanced analytics tools using Hadoop and PySpark.</li>
+    <li>Reduced server infrastructure costs by 20% after migrating legacy applications to a microservices architecture.</li>
+    <li>Cut application load times by 40% through code refactoring and caching strategies.</li>
+    <li>Decreased database query execution time by 25% by optimizing SQL queries and database transactions.</li>
+</ul>`,
+       description:`
+       <ul>
+       <li>Developed enterprise analytics tools and backend microservices to improve client business processes.</li>
+       <li>Utilized Java and Python ecosystems with Hadoop and PySpark for big data processing and analysis tasks.</li>
+       <li>Created data pipelines to aggregate and analyze large datasets, providing valuable business insights.</li>
+       <li>Developed SaaS web applications using ASP.NET MVC with C# and Entity Framework, backed by SQL Server and PostgreSQL.</li>
+       <li>Designed and implemented custom reporting modules using SQL Server Reporting Services (SSRS) and Crystal Reports.</li>
+       <li>Implemented secure authentication and authorization systems using OAuth 2.0 and JWT tokens for role-based access control.</li>
+       <li>Collaborated in an Agile (Scrum) environment, coordinating with cross-functional teams for efficient project delivery.</li>
+   </ul>
+  `
+  }
 ];
+
 
 export { services, technologies, experiences, projects ,educations};

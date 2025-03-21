@@ -20,6 +20,7 @@ import cwru from '../assets/icons/cwru.png';
 import ionic from '../assets/icons/ionic.png';
 import osmania from '../assets/backgrounds/osmania.jpeg';
 import chase from '../assets/icons/chase-bank.png';
+
 import {
   frontend,
   ux,
@@ -294,7 +295,6 @@ const educations = [
   
 ];
 
-
 const experiences = [
   {
     title: 'Software Developer',
@@ -305,31 +305,23 @@ const experiences = [
     age:'1+ years',
     techUsed:`<ul>
     <li><strong>Front-End:</strong> React, Redux, JavaScript/TypeScript, HTML5, CSS3 (Tailwind CSS, LESS), jQuery</li>
-    <li><strong>Back-End:</strong> C# (.NET Core/MVC), VB.NET, ASP.NET Web API (REST/OData), Entity Framework, Node.js (for certain services)</li>
+    <li><strong>Back-End:</strong> C# , Java,C++, Node.js (for certain services)</li>
     <li><strong>Data & Analytics:</strong> SQL Server (T-SQL), PostgreSQL, Apache Spark, Apache Kafka, SSRS, Report Builder</li>
     <li><strong>Cloud & DevOps:</strong> AWS S3 (cloud storage), Azure DevOps (CI/CD pipelines), GitHub, TFS, Docker, Kubernetes</li>
     <li><strong>Security:</strong> OAuth 2.0, JWT, Role-Based Access Control, Healthcare data compliance (HIPAA)</li>
 </ul>`,
     contributions: `<ul>
-    <li>Enhanced overall system performance by 30% through back-end optimization and efficient use of .NET and database technologies.</li>
-    <li>Decreased API request latency by 20% by implementing optimized web services (REST/OData) and improving client-server data exchange patterns.</li>
-    <li>Reduced database query execution times by 40% through query optimization and indexing, significantly speeding up data retrieval for large medical imaging datasets.</li>
-    <li>Cut front-end load times by 30% through responsive design and code-splitting techniques, providing faster access to the application for end-users.</li>
-    
-    <li>Ensured 99.9% system uptime and reliability for the application’s services by implementing robust cloud infrastructure and fail-safes.</li>
-    <li>Strengthened security by reducing unauthorized access attempts by 25% through the introduction of strict authentication and authorization measures.</li>
-</ul>`,
+    <li>UI Performance Optimization: Built scalable and responsive user interfaces using ReactJS, Redux, and TypeScript, cutting UI load times by 30%.</li>
+    <li>Real-Time System Integration: Integrated RESTful APIs and WebSockets for real-time updates, enhancing system performance and reducing latency by 40%.</li>
+    <li>Frontend Efficiency Enhancements: Leveraged React Query, Lazy Loading, and Code Splitting to improve frontend efficiency by 35%.</li>
+    <li>Security Improvements: Implemented robust security measures using OAuth 2.0, JWT, and RBAC, which increased system security and reduced unauthorized access by 25%.</li>
+    <li>Reliability and Uptime: Achieved 99.9% system uptime, ensuring the platform remains highly reliable.</li>
+   </ul>`,
     description: `
             <ul>
-                <li>Developed and maintained a SaaS-based healthcare web application using .NET (C# and VB.NET with ASP.NET and Entity Framework) and SQL Server.</li>
-                <li>Built and consumed RESTful APIs (including OData services) to enable seamless communication between front-end clients and server-side components.</li>
-                <li>Created responsive and dynamic user interfaces using React, TypeScript, HTML5/CSS3 (with LESS), and JavaScript (including jQuery) to enhance user experience for clinicians and patients.</li>
-                <li>Integrated real-time updates via WebSockets on the front end to live-stream medical imaging data (CT scans), allowing instant data refreshes for radiologists.</li>
-                <li>Optimized database operations and data storage by designing efficient T-SQL queries, stored procedures, and indexing strategies on SQL Server and PostgreSQL to improve query execution times.</li>
-                
-                <li>Implemented robust security and privacy measures to comply with healthcare regulations (HIPAA), including OAuth 2.0 authorization, JWT-based authentication, and role-based access control (RBAC).</li>
-                <li>Managed source control and automated deployments using Azure DevOps and GitHub/TFS, setting up CI/CD pipelines to streamline testing and deployment.</li>
-                <li>Developed advanced reporting features using SQL Server Reporting Services (SSRS) and Report Builder to provide real-time financial and operational analytics.</li>
+            As part of a key project, I engineered and optimized scalable, responsive user interfaces that enhanced performance and user experience. 
+            I utilized ReactJS, Redux, and TypeScript to build dynamic UIs while significantly reducing load times by 30%. By integrating real-time updates through RESTful APIs and WebSockets, 
+            I enabled efficient and fast imaging updates, decreasing latency by 40%. Additionally, I improved the overall frontend efficiency with React Query, Lazy Loading, and Code Splitting, which contributed to a 35% performance boost. To secure the platform, I implemented OAuth 2.0, JWT, and RBAC authentication, ensuring a highly secure environment with 99.9% uptime and a 25% reduction in unauthorized access.
             </ul>`
   
   },
@@ -383,25 +375,30 @@ const experiences = [
   <li><strong>Version Control:</strong> BitBucket, Git</li>
 </ul>`,
   contributions: `<ul>
-  <li>Reduced operational costs by 20% and saved 10+ hours per week by automating data pipeline workflows and reporting processes.</li>
-  <li>Implemented a big data analytics platform that contributed to a 25% increase in revenue over two years by enabling deeper insights into customer data.</li>
-  <li>Saved approximately $40,000 annually through optimized ETL pipelines that streamlined data ingestion for multiple business units.</li>
-  <li>Accelerated data processing speeds by 65% by integrating Hadoop into existing ETL operations, significantly improving batch processing times.</li>
-  <li>Achieved 99.98% system uptime by leveraging a containerized microservices architecture and robust cloud infrastructure, ensuring high availability of critical applications.</li>
-  <li>Decreased deployment failures by 20% and accelerated release cycles via improved CI/CD practices, resulting in more reliable and frequent software releases.</li>
-</ul>`,
+  <li>Cloud-Native Application Development: Conceptualized and developed cloud-native applications and microservices, improving scalability, performance, and deployment efficiency.</li>
+  <li>Team Leadership and Mentorship: Mentored 4 junior developers, guiding them in best coding practices and fostering their growth in software development.</li>
+  <li>Software Design and Clarity: Analyzed functional and software specifications, crafting low-level designs that increased system clarity and maintainability by 8%.</li>
+  <li>High-Performance Application Development: Engineered Java, J2EE, and Spring Boot applications, reducing defect rates by 20% with robust coding practices.</li>
+  <li>Cloud Infrastructure Optimization: Revamped and deployed cloud-native apps using AWS, Kubernetes, and Docker, enhancing scalability and cutting deployment overhead by 30%.</li>
+  <li>Service-Oriented Architecture (SOA): Established an SOA-based integration approach that enabled cross-platform communication used by over 10 departments, increasing collaboration and expediting project delivery.</li>
+  <li>Backend Optimization: Optimized backend operations using ElasticSearch and Gemfire Cache, cutting data retrieval times by 35% and improving user experience.</li>
+  <li>CI/CD Pipeline Enhancement: Improved CI/CD pipelines with Jenkins, Jules, and automated testing tools, reducing deployment failures by 20%.</li>
+  <li>Microservices Uptime and Scalability: Enhanced containerized microservices architecture, ensuring 99.98% uptime and seamless scalability for enterprise-level applications.</li></ul>`,
      description:`
       <ul>
-      <li>Developed scalable cloud-native applications and microservices using Java, Python, and Node.js to support enterprise banking operations.</li>
-      <li>Built high-performance APIs (REST and GraphQL) for cross-platform integration across 10+ internal departments.</li>
-      <li>Designed and optimized large-scale data pipelines and ETL workflows to handle big data processing needs.</li>
-      <li>Implemented Hadoop-based solutions (Hive, HDFS, PySpark) for batch and real-time data analytics, integrating them with traditional ETL processes.</li>
-      <li>Deployed and managed containerized services on cloud platforms (AWS EC2, S3, EMR) using Docker and Kubernetes to ensure scalability and resilience.</li>
-      <li>Improved continuous integration and delivery (CI/CD) pipelines using Jenkins, Bitbucket, and GitHub Actions to accelerate release cycles.</li>
-      <li>Optimized backend performance through caching and database tuning using Redis and Elasticsearch to improve data retrieval latency.</li>
-      <li>Collaborated on system design and architecture, analyzing software requirements and creating detailed design documents to improve maintainability.</li>
-      <li>Ensured coding best practices and documentation standards were followed across the team.</li>
-      <li>Mentored a team of 4 junior developers, providing guidance in coding standards, system design, and debugging techniques to improve productivity and code quality.</li>
+      n my work, I focused on creating cloud-native applications and microservices that could scale easily and perform better. A key part of this was leading a small team of four junior developers, mentoring them and helping them grow. I spent a lot of time analyzing the existing software and functional specifications, and from there, I designed solutions that made the system easier to understand and maintain. This also led to a noticeable reduction in system errors.
+
+Using Java, J2EE, and Spring Boot, I built high-performing applications that worked reliably, reducing issues by 20%. I also revamped cloud applications, deploying them on AWS, Kubernetes, and Docker, which made them more scalable and reduced deployment challenges. One of the highlights was introducing a new integration method that enabled better communication between more than 10 departments, improving collaboration and speeding up project timelines.
+
+Additionally, I optimized backend systems using ElasticSearch and Gemfire Cache, significantly cutting down the time it took to retrieve data and improving user experience. I also worked on refining the CI/CD pipeline, using tools like Jenkins and Jules, which helped reduce deployment failures and kept the system up and running 99.98% of the time.
+
+
+
+
+
+
+
+
   </ul>
 `
 },
@@ -413,29 +410,22 @@ const experiences = [
     date: 'Jan 2021 - Jul 2021',
     techUsed:` <ul>
     <li><strong>Languages & Frameworks:</strong> Java (J2EE, Spring), Python (Flask/PySpark), C# (ASP.NET MVC), Hadoop (HDFS, MapReduce)</li>
-    <li><strong>Databases & Reporting:</strong> SQL Server, PostgreSQL, Hibernate (ORM), SQLAlchemy (Python ORM), SSRS, Crystal Reports</li>
-    <li><strong>Tools & Methodologies:</strong> Azure DevOps, TFS (source control), Agile/Scrum, Jenkins (CI builds), OAuth 2.0 & JWT</li>
+    <li><strong>Databases & Reporting:</strong> SQL Server, PostgreSQL, Hibernate (ORM),Crystal Reports, HDFS, Hive, Pig, Java Spark, ETL</li>
+    <li><strong>Tools & Methodologies:</strong> CI/CD, AWS, Github (source control), Agile/Scrum, Jenkins (CI builds), OAuth 2.0 & JWT</li>
 </ul>`,
 contributions: `<ul>
-    <li>Improved overall system efficiency by 25% through backend optimization and performance tuning.</li>
-    <li>Increased data analysis speed by 35% by developing advanced analytics tools using Hadoop and PySpark.</li>
-    <li>Reduced server infrastructure costs by 20% after migrating legacy applications to a microservices architecture.</li>
-    <li>Cut application load times by 40% through code refactoring and caching strategies.</li>
-    <li>Decreased database query execution time by 25% by optimizing SQL queries and database transactions.</li>
+<li>Architecture and Backend Performance: Designed and developed analytics tools and microservices, enhancing system efficiency and scalability by 25%.</li>
+<li>Data Analytics Optimization: Built a Java-based analytics tool with Hadoop, increasing data analysis speed by 35%.</li>
+<li>Legacy System Modernization: Led the migration of legacy applications to microservices, improving efficiency by 35% and reducing server costs by 20%.</li>
+<li><li>Backend Refactoring: Refactored backend code and implemented caching, reducing load times by 40%.</li>
+Database Optimization: Streamlined database transactions with Hibernate, improving query execution time by 25% and increasing scalability.</li>
 </ul>`,
        description:`
        <ul>
-       <li>Developed enterprise analytics tools and backend microservices to improve client business processes.</li>
-       <li>Utilized Java and Python ecosystems with Hadoop and PySpark for big data processing and analysis tasks.</li>
-       <li>Created data pipelines to aggregate and analyze large datasets, providing valuable business insights.</li>
-       <li>Developed SaaS web applications using ASP.NET MVC with C# and Entity Framework, backed by SQL Server and PostgreSQL.</li>
-       <li>Designed and implemented custom reporting modules using SQL Server Reporting Services (SSRS) and Crystal Reports.</li>
-       <li>Implemented secure authentication and authorization systems using OAuth 2.0 and JWT tokens for role-based access control.</li>
-       <li>Collaborated in an Agile (Scrum) environment, coordinating with cross-functional teams for efficient project delivery.</li>
+       In my role, I architected and developed advanced analytics tools, microservices, and optimized backend performance, improving overall system scalability and efficiency by 25%. I engineered a Java-based analytics tool utilizing Hadoop, resulting in a 35% increase in data analysis speed. Additionally, I spearheaded the migration of legacy applications to microservices, which boosted operational efficiency by 35% and cut server costs by 20%. Through backend code refactoring and the implementation of caching strategies, I reduced system load times by 40%. By optimizing database transactions using Hibernate, I improved query execution times by 25% and enhanced the scalability of the system.
    </ul>
   `
   }
 ];
-
 
 export { services, technologies, experiences, projects ,educations};
